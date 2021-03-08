@@ -12,7 +12,7 @@ function Index() {
       <Fragment>
          <Header />
          <div id="servicios" className="container mt-5">
-            <p className="display-5 text-center primary-color-text">We are profetionals</p>
+            <p className="display-5 text-center primary-color-text">We are professionals</p>
             <div className="row mt-5">
                <Services icon="far fa-snowflake"/>
                <Services icon="fas fa-tools"/>

@@ -3,7 +3,7 @@ import React from 'react'
 function Navbar() {
    return (
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-         <div className="container-fluid bg">
+         <div className="container-fluid bg-light">
          <a className="navbar-brand " href="#!">
             <img src="https://carranza32.github.io/rebel-air/assets/images/Logo.png" alt="" width="64" height="24" class="d-inline-block me-5" />
             Rebel Air
