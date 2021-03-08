@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rebel-air/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/rebel-air/static/js/main.013de21a.chunk.js",
-    "main.js.map": "/rebel-air/static/js/main.013de21a.chunk.js.map",
+    "main.js": "/rebel-air/static/js/main.435b64f4.chunk.js",
+    "main.js.map": "/rebel-air/static/js/main.435b64f4.chunk.js.map",
     "runtime-main.js": "/rebel-air/static/js/runtime-main.793adf22.js",
     "runtime-main.js.map": "/rebel-air/static/js/runtime-main.793adf22.js.map",
     "static/css/2.39049ac6.chunk.css": "/rebel-air/static/css/2.39049ac6.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.39049ac6.chunk.css",
     "static/js/2.fe43daed.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.013de21a.chunk.js"
+    "static/js/main.435b64f4.chunk.js"
   ]
 }
