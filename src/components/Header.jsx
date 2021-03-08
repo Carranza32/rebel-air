@@ -12,7 +12,7 @@ function Header() {
                   </div>
                </div>
                <div className="col-sm-12 col-md-5">
-                  <img src={window.location.origin + "/assets/images/Logo.png"} alt="" className="img-fluid" />
+                  <img src="%PUBLIC_URL%/assets/images/Logo.png" alt="" className="img-fluid" />
                </div>
             </div>
          </div>

@@ -49,7 +49,7 @@ function Index() {
                         </div>
                      </div>
                      <div class="col-sm-12 col-md-4 d-flex justify-content-center">
-                        <img src={window.location.origin + "/assets/images/pulse.png"} alt="" className="img-fluid"/>
+                        <img src="%PUBLIC_URL%/assets/images/pulse.png" alt="" className="img-fluid"/>
                      </div>
                      <div class="col-sm-12 col-md-4">
                         <div className="d-flex justify-content-center mb-5">

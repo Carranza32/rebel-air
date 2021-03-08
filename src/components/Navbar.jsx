@@ -5,7 +5,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
          <div className="container-fluid bg">
          <a className="navbar-brand " href="#!">
-            <img src={window.location.origin + "/assets/images/Logo.png"} alt="" width="64" height="24" class="d-inline-block me-5" />
+            <img src="%PUBLIC_URL%/assets/images/Logo.png" alt="" width="64" height="24" class="d-inline-block me-5" />
             Rebel Air
          </a>
          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

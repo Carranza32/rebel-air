@@ -5,7 +5,7 @@ function Best() {
       <div id="best" className="mt-5 overflow-hidden">
          <div className="row">
             <div className="col-sm-12 col-md-6 p-0">
-               <img src={window.location.origin + "/assets/images/20944212.jpg"} alt="" className="img-fluid" />
+               <img src="%PUBLIC_URL%/assets/images/20944212.jpg" alt="" className="img-fluid" />
             </div>
             <div className="col-sm-12 col-md-6 primary-color p-5 background-points">
                <h5 className="">Heating & Air Conditioning (About Us)</h5>
