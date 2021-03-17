@@ -1,14 +1,17 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 
-function Services({icon, body}) {
+function Services({icon, title, body}) {
+   const [t, i18n] = useTranslation("global");
+
    return (
-      <div className="col-md-3 col-sm-12">
-         <div class="card custom-card-shadow mb-5" id="service-card">
-            <i class={`${icon} d-flex justify-content-center primary-color-text gradient-blue-shadow-text`}></i>
-            <div class="card-body">
-               <h4 class="card-title text-center">Air Conditioner Replacement</h4>
+      <div className="col-sm-12 col-md-6 col-lg-3">
+         <div className="card custom-card-shadow mb-5 service-card">
+            <i className={`${icon} d-flex justify-content-center primary-color-text gradient-blue-shadow-text`}></i>
+            <div className="card-body">
+               <h4 className="card-title text-center">{title}</h4>
                <br/>
-               <p class="card-text">We provide our clients with all the range of services. We will fix any malfunction in record terms so you will have no worries! We offer a huge number of</p>
+               <p className="card-text">{body}</p>
             </div>
          </div>
       </div>

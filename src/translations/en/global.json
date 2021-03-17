@@ -1,0 +1,71 @@
+{
+   "navbar": {
+      "title": "Languaje",
+      "en": "English",
+      "es": "Spanish",
+      "item-1": "Home",
+      "item-2": "Skills",
+      "item-3": "About Us",
+      "item-4": "Contact"
+   },
+   "header": {
+      "title": "Expert Heating, Cooling, and",
+      "title-bold": "Air Conditioning Installation & Repair",
+      "button": "Contact Now"
+   },
+   "skills": {
+      "title": "We are professionals",
+      "item-1": {
+         "title": "Air Conditioner Replacement",
+         "description": "We provide our clients with all the range of services. We will fix any malfunction in record terms so you will have no worries! We offer a huge number of"
+      },
+      "item-2": {
+         "title": "Air Conditioner Replacement",
+         "description": "We provide our clients with all the range of services. We will fix any malfunction in record terms so you will have no worries! We offer a huge number of"
+      },
+      "item-3": {
+         "title": "Air Conditioner Replacement",
+         "description": "We provide our clients with all the range of services. We will fix any malfunction in record terms so you will have no worries! We offer a huge number of"
+      },
+      "item-4": {
+         "title": "Air Conditioner Replacement",
+         "description": "We provide our clients with all the range of services. We will fix any malfunction in record terms so you will have no worries! We offer a huge number of"
+      }
+   },
+   "about": {
+      "title": "Heating & Air Conditioning",
+      "title-bold": "Repairs & Services",
+      "text": "Our company is reliable, and our work is trusted. We provide worry-free service you can always count on. We have gathered the best staff that will do any kind of repair for you.",
+      "button": "Make an appointment"
+   },
+   "services": {
+      "title": "Featured Services",
+      "item-1": {
+         "title": "Energy Efficiency",
+         "description": "Our company offers the most efficient and the greenest options for home heating."
+      },
+      "item-2": {
+         "title": "Energy Efficiency",
+         "description": "Our company offers the most efficient and the greenest options for home heating."
+      },
+      "item-3": {
+         "title": "Energy Efficiency",
+         "description": "Our company offers the most efficient and the greenest options for home heating."
+      },
+      "item-4": {
+         "title": "Energy Efficiency",
+         "description": "Our company offers the most efficient and the greenest options for home heating."
+      }
+   },
+   "banner": {
+      "title": "Time for a New System?",
+      "subtitle": "Call an Air Supply today for a quote on your new home comfort system.",
+      "button": "Contact"
+   },
+   "form": {
+      "name": "Name",
+      "email": "Email address",
+      "content": "Content",
+      "button": "Send"
+   }
+}

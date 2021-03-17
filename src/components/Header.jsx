@@ -1,22 +1,25 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import { useTranslation } from "react-i18next";
 
 function Header() {
+   const [t, i18n] = useTranslation("global");
+
    return (
-      <header className="gradient-purple-blu ">
-         <div className="header-content">
-            <div className="row mt-5">
-               <div className="col-sm-12 col-md-7">
-                  <h1 className="display-3">Expert Heating, Cooling, and <strong className="primary-color-tex bold">Air Conditioning Installation & Repair</strong></h1>
-                  <div className="mt-5">
-                     <a href="/about" className="btn primary-color gradient-blue-shadow rounded-pill me-4">Más sobre nosotros</a>
-                  </div>
+      <Fragment>
+         <div className="Header">
+            <div className="Header-background"></div>
+            <div className="Header-content">
+               <div className="Header-hero">
+                  <h1>{t("header.title")} <br/> <strong className="primary-color-tex bold">{t("header.title-bold")}</strong></h1>
+                  <button className="Button mt-5">{t("header.button")}</button>
                </div>
-               <div className="col-sm-12 col-md-5">
+               <div className="Header-visuals">
                   <img src="https://carranza32.github.io/rebel-air/assets/images/Logo.png" alt="" className="img-fluid" />
                </div>
             </div>
          </div>
-      </header>
+      </Fragment>
+      
    )
 }
 

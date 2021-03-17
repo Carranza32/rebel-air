@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios';
+import { useTranslation } from 'react-i18next';
 
 function ContactForm() {
+   const [t, i18n] = useTranslation("global");
+
    const API_PATH = 'https://www.kairosalessandria.com/emailApi/index.php';
 
    const [correo, setCorreo] = useState({
@@ -75,7 +78,7 @@ function ContactForm() {
                      {errorEmail ? <p className="alert alert-danger">Something gone wrong</p> : null}
 
                      <div className="mb-3">
-                        <label htmlFor="name" className="form-label">Name</label>
+                        <label htmlFor="name" className="form-label">{t("form.name")}</label>
                         <input 
                            type="text" 
                            className="form-control" 
@@ -87,7 +90,7 @@ function ContactForm() {
                         />
                      </div>
                      <div className="mb-3">
-                        <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
+                        <label htmlFor="exampleFormControlInput1" className="form-label">{t("form.email")}</label>
                         <input 
                            type="email" 
                            className="form-control" 
@@ -100,7 +103,7 @@ function ContactForm() {
                         />
                      </div>
                      <div className="mb-3">
-                        <label htmlFor="exampleFormControlTextarea1" className="form-label">Content</label>
+                        <label htmlFor="exampleFormControlTextarea1" className="form-label">{t("form.content")}</label>
                         <textarea 
                            className="form-control" 
                            id="exampleFormControlTextarea1" 
@@ -111,8 +114,8 @@ function ContactForm() {
                            value={coments}
                         ></textarea>
                      </div>
-                     <div className="d-grid gap-2 col-6 mx-auto">
-                        <button className="btn primary-color gradient-blue-shadow" type="submit"><i className="fa fa-paper-plane me-2"></i>Send</button>
+                     <div className="d-grid gap-2 col-12">
+                        <button className="btn btn-block mt-3 primary-color gradient-blue-shadow" type="submit"><i className="fa fa-paper-plane me-2"></i>{t("form.button")}</button>
                      </div>
                   </form>
                </div>

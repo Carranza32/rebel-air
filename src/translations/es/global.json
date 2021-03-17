@@ -1,0 +1,71 @@
+{
+   "navbar": {
+      "title": "Lenguaje",
+      "en": "Ingles",
+      "es": "Español",
+      "item-1": "Inicio",
+      "item-2": "Fortalezas",
+      "item-3": "Nosotros",
+      "item-4": "Contacto"
+   },
+   "header": {
+      "title": "Expertos en calefacción, refrigeración e",
+      "title-bold": "Instalación y reparación de aire acondicionado",
+      "button": "Contactanos"
+   },
+   "skills": {
+      "title": "Somos profecionales",
+      "item-1": {
+         "title": "Reemplazo del aire acondicionado",
+         "description": "Ofrecemos a nuestros clientes toda la gama de servicios. ¡Arreglaremos cualquier avería en términos récord para que no se preocupe! Ofrecemos una gran cantidad de"
+      },
+      "item-2": {
+         "title": "Reemplazo del aire acondicionado",
+         "description": "Ofrecemos a nuestros clientes toda la gama de servicios. ¡Arreglaremos cualquier avería en términos récord para que no se preocupe! Ofrecemos una gran cantidad de"
+      },
+      "item-3": {
+         "title": "Reemplazo del aire acondicionado",
+         "description": "Ofrecemos a nuestros clientes toda la gama de servicios. ¡Arreglaremos cualquier avería en términos récord para que no se preocupe! Ofrecemos una gran cantidad de"
+      },
+      "item-4": {
+         "title": "Reemplazo del aire acondicionado",
+         "description": "Ofrecemos a nuestros clientes toda la gama de servicios. ¡Arreglaremos cualquier avería en términos récord para que no se preocupe! Ofrecemos una gran cantidad de"
+      }
+   },
+   "about": {
+      "title": "Calefacción y aire acondicionado",
+      "title-bold": "Reparaciones y servicios",
+      "text": "Nuestra empresa es confiable y nuestro trabajo es confiable. Ofrecemos un servicio sin preocupaciones en el que siempre puede contar. Hemos reunido al mejor personal que hará cualquier tipo de reparación por usted.",
+      "button": "Haga una cita"
+   },
+   "services": {
+      "title": "Servicios destacados",
+      "item-1": {
+         "title": "Eficiencia energética",
+         "description": "Nuestra empresa ofrece las opciones más eficientes y ecológicas para la calefacción del hogar."
+      },
+      "item-2": {
+         "title": "Eficiencia energética",
+         "description": "Nuestra empresa ofrece las opciones más eficientes y ecológicas para la calefacción del hogar."
+      },
+      "item-3": {
+         "title": "Eficiencia energética",
+         "description": "Nuestra empresa ofrece las opciones más eficientes y ecológicas para la calefacción del hogar."
+      },
+      "item-4": {
+         "title": "Eficiencia energética",
+         "description": "Nuestra empresa ofrece las opciones más eficientes y ecológicas para la calefacción del hogar."
+      }
+   },
+   "banner": {
+      "title": "¿Es hora de un nuevo sistema?",
+      "subtitle": "Llame a un suministro de aire hoy para obtener una cotización de su nuevo sistema de confort en el hogar.",
+      "button": "Contactar"
+   },
+   "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "content": "Mensaje",
+      "button": "Enviar"
+   }
+}
